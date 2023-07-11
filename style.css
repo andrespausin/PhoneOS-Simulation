@@ -1,0 +1,255 @@
+body{
+    background-color: #e08313;
+    color: #000;
+    max-height: 50%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#container{  
+    display: grid;
+    grid-template-columns: 25% 15% 30% 30%;
+    background-color: aquamarine; 
+    width: 80%;
+    height: 700px;
+    text-align: center;
+    margin:100px auto;
+    border: solid;
+    border-color: #121212;
+    border-radius: 50pxs;
+}
+
+#telefono{
+    margin: 20px;
+    border: solid #000;
+    background-color:antiquewhite;
+    border-radius: 15px;
+    
+}
+
+#info{
+    color: #fff;
+    width: 100%;
+    height: 50%;
+    opacity: 100%;
+}
+
+#apps{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    margin: 5px ;
+    height: 48%;
+    border-radius: 15px;
+    opacity: 100%;
+
+}
+
+.barra{
+    background-color: #000;
+    border-radius: 5px;
+    color: #fff;
+    width: 100%;
+    height: 25px;
+    display: flex;
+}
+
+#Hora {
+    padding-left: 10px;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+}
+
+
+#battery{
+    color: #fff;
+    width: 120%;
+    border-radius: 15px;
+    margin: 2px;
+    
+}
+
+.aplicacion{
+    border: solid #000;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aplicacion:hover{
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 70%;
+}
+
+.table {
+    margin: 20px;
+    border: solid #000;
+    background-color:bisque;
+    color: #000;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.table.custom{
+  height: fit-content;
+}
+
+.table.process{
+  display: flex;
+  flex-direction: column;
+}
+
+.table.botones{
+    border: none;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-rows: 40% 27% 33%;
+
+}
+
+.especificaciones{
+  display: block;
+  padding: 5px;
+}
+
+.buttons{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    border: solid #000;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+
+img {
+    width: 80%;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  /* Tabla de datos */
+  #customers {
+    font-size: 15px;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.custom {
+  border-radius: 0;
+}
+  
+  #customers td, #customers th {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 8px;
+}
+  
+  #customers tr:nth-child(even){
+    background-color: #f2f2f2;
+  }
+  
+  #customers tr:hover {
+    background-color: #d0b5b5;
+  }
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #2196F3;
+    color: #000;
+  }
+
+  #graphics {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+  }
+
+  .progreso{
+    margin: auto;
+    width: 90%;
+    height: 15%;
+    background-color: #fff;
+    border-radius: 20px;
+    border: solid #000;
+  }
+
+  .porcentaje {
+    background-color: rgb(255, 146, 127);
+    border-radius: 15px;
+    height: 100%;
+    width: 0;
+  }
+

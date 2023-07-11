@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile OS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        
+        <div id="telefono">
+            <div id="info">
+
+                <div class="barra">
+                    <div id="Hora">22:00</div>
+                    <div class="battery-container">
+                        <div id="battery">1%</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="apps">
+                <div class="aplicacion" id="1"><img src="/images/chrome.png" alt=""></div>
+                <div class="aplicacion" id="2"><img src="images/gmail.png" alt=""></div>
+                <div class="aplicacion" id="3"><img src="images/instagram.png" alt=""></div>
+                <div class="aplicacion" id="4"><img src="images/spotify.jpeg" alt=""></div>
+                <div class="aplicacion" id="5"><img src="images/netflix.jpeg" alt=""></div>
+                <div class="aplicacion" id="6"><img src="images/settings.png" alt=""></div>
+                <div class="aplicacion" id="7"><img src="images/tiktok.png" alt=""></div>
+                <div class="aplicacion" id="8"><img src="images/whatsapp.png" alt=""></div>
+                <div class="aplicacion" id="9"><img src="images/youtube.png" alt=""></div>
+            </div>
+        </div>
+        <div class="table botones">
+            <div class="buttons">
+                <div class="especificaciones"><b><h3>Especificaciones del celular</h3></b></div>
+                <div class="especificaciones"><b>Modelo:</b> César's phone</div>
+                <div class="especificaciones"><b>Sistema Operativo:</b> Cesar's</div>
+                <div class="especificaciones"><b>Memoria RAM:</b> 8 GB</div>
+                <div class="especificaciones"><b>Memoria ROM:</b> 64 GB</div>
+                <div class="especificaciones"><b>Procesador:</b> Cesar's CPU</div>
+            </div>
+            <div class="buttons">
+                <div class="especificaciones">
+                    Botón de Carga
+                </div>
+                <label class="switch"> 
+                  <input type="checkbox" id="cargar">
+                  <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="buttons" id="reset"><img src="/images/reset.png" alt=""></div>
+        </div>
+
+        <div class="table custom">
+            <table id="customers">
+                <thead>
+                  <th>Id</th>
+                  <th>Aplicación</th>
+                  <th>RAM</th>
+                  <th>ROM</th>
+                </thead> 
+                <tbody id="body">
+
+                </tbody>
+              </table>
+
+        </div>
+
+        <div class="table process">
+
+          <div id="activeProcess" style="height:50%;">
+            <table id="customers">
+              <thead>
+                <th>App</th>
+                <th>Status</th>
+              </thead>
+              <tbody id="cuerpo">
+
+              </tbody>
+
+            </table>
+          </div>
+          <div id="graphics" style="height:50%;">
+            Memoria RAM
+            <div class="progreso" id="RAM">
+              <div class="porcentaje" id="percentRAM"></div>
+            </div>
+            Memoria ROM
+            <div class="progreso" id="ROM">
+              <div class="porcentaje" id="percentROM"></div>
+            </div>
+          </div>
+
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
